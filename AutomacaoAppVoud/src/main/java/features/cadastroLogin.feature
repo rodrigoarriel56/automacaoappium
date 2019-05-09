@@ -1,10 +1,14 @@
 # language:pt
 # encoding UTF-8
 
-Funcionalidade: Realizar soma
+Funcionalidade: Realizar cadastro no app VouD
 
   @cadastroLogin
-  Cenario: Realizar login no app do voud
+  Cenario: Realizar cadastro no app VouD
     Dado que esteja com o app do voud aberto
     Quando aciono o botao de cadastro ou login
-    Entao e apresentado o campo de preenchimento do cfp do usuario
+    E preencho o campo de cpf com um cpf que nao esteja na base <CPF>
+    E aciono o botao de prosseguir
+    E preencho o campo senha <SENHA>
+    E aciono o botao de entrar
+    Entao usuario devera ser direcionado para home do app

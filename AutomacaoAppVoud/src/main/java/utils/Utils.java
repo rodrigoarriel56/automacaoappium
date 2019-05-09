@@ -1,3 +1,12 @@
+/*
+ * Projeto: Automação do App Voud 
+ * Empresa: Autopass
+ * Autor: Rodrigo Arriel
+ * Data: 18/03/2019
+ * Funcionalidade: Classe de mapeamento de elementos.
+ * 
+ */
+
 package utils;
 
 import app.App;
