@@ -1,8 +1,8 @@
 /*
- * Projeto: Automação do App Voud 
- * Empresa: Autopass
+ * Projeto: Automacao do Mobile
+ * Empresa: 
  * Autor: Rodrigo Arriel
- * Data: 18/03/2019
+ * Data: 
  * Funcionalidade: Classe de mapeamento de elementos.
  * 
  */
