@@ -1,8 +1,8 @@
 /*
- * Projeto: Automação do App Voud 
- * Empresa: Autopass
- * Autor: Rodrigo Arriel
- * Data: 18/03/2019
+ * Projeto: Automacao
+ * Empresa: 
+ * Autor:
+ * Data: 
  * Funcionalidade: Classe de mapeamento de elementos.
  * 
  */
@@ -29,7 +29,7 @@ public class HomeFuncionalidade {
     	home.getCadastroLogin().click();
     	WebDriver driver = null;
     	@SuppressWarnings("unused")
-		WebDriverWait wait = new WebDriverWait(driver, 1); //Metodo de espera para outra ação
+		WebDriverWait wait = new WebDriverWait(driver, 1); //Metodo de espera para outra acao
 		
     }
     

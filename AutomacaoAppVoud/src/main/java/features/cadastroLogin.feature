@@ -4,7 +4,9 @@
 Funcionalidade: Realizar cadastro no app VouD
 
   @cadastroLogin
+  
   Cenario: Realizar cadastro no app VouD
+  
     Dado que esteja com o app do voud aberto
     Quando aciono o botao de cadastro ou login
     E preencho o campo de cpf com um cpf que nao esteja na base <CPF>

@@ -1,9 +1,9 @@
 /*
- * Projeto: Automação do App Voud 
- * Empresa: Autopass
- * Autor: Rodrigo Arriel
- * Data: 18/03/2019
- * Funcionalidade: Automação de Login do App
+ * Projeto: Automacao 
+ * Empresa: 
+ * Autor: 
+ * Data: 
+ * Funcionalidade: Automacao de Login do App
  * 
  */
 
@@ -18,17 +18,17 @@ import static app.App.getDriver;
 
 public class HomeStep {
     
-	//Metodo de botão de cadastro ou login
-	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"Botão de cadastro ou login\"]/android.view.ViewGroup")
+	//Metodo de botï¿½o de cadastro ou login
+	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"Botï¿½o de cadastro ou login\"]/android.view.ViewGroup")
     MobileElement cadastroLogin;
 	
 	@AndroidFindBy(xpath = "  ") //Colocar o caminho do campo CPF
     MobileElement preenchimentoCpf;
 		
-	@AndroidFindBy(xpath = "  ") //Colocar o caminho do botão proccesseguir
+	@AndroidFindBy(xpath = "  ") //Colocar o caminho do botï¿½o proccesseguir
     MobileElement acionamentoBotaoProsseguir;
 	
-	@AndroidFindBy(id = "result") //Validar nome de usuário
+	@AndroidFindBy(id = "result") //Validar nome de usuï¿½rio
     MobileElement visor;
 		
 	@AndroidFindBy(xpath = "  ")
@@ -42,7 +42,7 @@ public class HomeStep {
         PageFactory.initElements(new AppiumFieldDecorator(getDriver()), this);
     }
 
-    //Botão para se cadastrar ou se logar no App
+    //Botï¿½o para se cadastrar ou se logar no App
     public MobileElement getCadastroLogin()
     {
         return cadastroLogin;
