@@ -1,8 +1,0 @@
-*.html
-*.png
-*.jpeg
-*.jpg
-*.log
-*.json
-*.target
-/target/
