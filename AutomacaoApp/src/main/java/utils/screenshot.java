@@ -7,10 +7,10 @@
  * 
  */
 
-package funcScreenshot;
+package utils;
 
 import cucumber.api.java.After;
-import utils.Utils;
+//import utils.Utils;
 
 import java.io.IOException;
 

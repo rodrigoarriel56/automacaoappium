@@ -7,7 +7,7 @@
  * 
  */
 
-package steps;
+package cenariosTestCaes;
 
 //import cucumber.api.java.gl.E;
 import cucumber.api.java.pt.Dado;

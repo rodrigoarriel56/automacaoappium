@@ -3,7 +3,7 @@
  * Empresa: 
  * Autor: Rodrigo Arriel
  * Data: 
- * Funcionalidade: Classe de mapeamento de elementos do devices a ser utilizado.
+ * Funcionalidade: Classe de configuracao e implementacao das capacidades(Capability) do projeto
  * 
  */
 

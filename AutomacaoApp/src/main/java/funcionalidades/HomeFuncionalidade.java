@@ -21,7 +21,6 @@ public class HomeFuncionalidade {
 
     public PageElements home; //Estancia da classe pageElemts
    
-	//@SuppressWarnings("unused")
 	private WebDriver driver;
 
     public HomeFuncionalidade()

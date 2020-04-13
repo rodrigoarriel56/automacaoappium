@@ -1,9 +1,9 @@
 /*
- * Projeto: Automa��o do App Voud 
- * Empresa: Autopass
+ * Projeto: Automacao do App 
+ * Empresa:
  * Autor: Rodrigo Arriel
- * Data: 18/03/2019
- * Funcionalidade: Classe de execu��o da automa��o
+ * Data:
+ * Funcionalidade: Classe de execucao da automacao
  * 
  */
 
