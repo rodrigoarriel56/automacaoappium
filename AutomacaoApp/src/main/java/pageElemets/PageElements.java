@@ -24,11 +24,12 @@ public class PageElements {
 	@AndroidFindBy(xpath = "//android.widget.TextView[@text='Entrar']")
     MobileElement btnEntrar;
     
-    //Continuar com a correcao
+   
 	
 	@AndroidFindBy(xpath = "//android.widget.EditText[@text='CPF']") //Colocar o caminho do campo CPF
     MobileElement campoCpf;
-		
+	
+	 //Continuar inserindo as informacao dos campos do app
 
     public PageElements() 
     {

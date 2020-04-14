@@ -4,10 +4,12 @@
 
 Funcionalidade: Realizar cadastro Midway
 
-  @cadastromidway
-    Cenario: Realizar cadastro no app Midway
+	Contexto: Validar a criacao de cadastro no banco 
+	
+	@cadastromidway
+	 Cenario: Realizar cadastro no app Midway
   
-    Dado que esteja com o app aberto
+    Dado que tenha app instalado no device 
     Quando acionar botao entrar na tela de versao do app
     Quando acionar botao entrar novamente
     E preencher campo cpf

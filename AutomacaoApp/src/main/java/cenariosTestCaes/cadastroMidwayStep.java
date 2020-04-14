@@ -19,6 +19,14 @@ import funcionalidades.HomeFuncionalidade;
 public class cadastroMidwayStep {
 	
 
+	@Dado("^que tenha app instalado no device$")
+	public void que_tenha_app_instalado_no_device() throws Throwable 
+	{
+		HomeFuncionalidade home = new HomeFuncionalidade();
+		home.btnEntrar();
+	
+	}
+	
 	@Dado("^que esteja com o app aberto$")
 	public void que_esteja_com_o_app_aberto() throws Throwable 
 	{

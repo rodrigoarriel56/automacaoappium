@@ -1,9 +1,9 @@
 /*
- * Projeto: Automacao do Mobile
+ * Projeto: Automacao Mobile
  * Empresa: 
  * Autor: Rodrigo Arriel
  * Data: 
- * Funcionalidade: Classe de mapeamento de elementos.
+ * Funcionalidade: Classe de geracao de evidencias dos testes.
  * 
  */
 

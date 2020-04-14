@@ -3,7 +3,7 @@
  * Empresa: 
  * Autor:
  * Data: 
- * Funcionalidade: Classe de mapeamento de elementos.
+ * Funcionalidade: Classe funcionalidades dos testes.
  * 
  */
 
@@ -34,7 +34,7 @@ public class HomeFuncionalidade {
     	home.getBtnEntrar();
     	
     	@SuppressWarnings("unused")
-		WebDriverWait wait = new WebDriverWait(driver, 1); //Metodo de espera para outra acao
+		WebDriverWait wait = new WebDriverWait(driver, 1);
     }
     
     public void campoCpf() throws InterruptedException
